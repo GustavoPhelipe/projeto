@@ -1,3 +1,51 @@
 body{
+    background-color: #ffff;
+
+    .caixa{
+        overflow: hidden;
+    }
+
+    .menu{
+        background-color: #000000;
+        float: left;
+        border: 5px;
+        border-color: black;
+        font-size: 200%;
+        margin: 25px;   
+        width: 90%;     
+    }
+
+    .logo{
+        color: #ffffff;
+        float: left;
+        border: 5px;
+        border-color: black;
+        font-size: 200%;
+        padding: 25px;
+        margin-right: 150px;
+    }
     
+    .menu_2{
+        color: #ffffff;
+        float: left;
+        border-top: 25px;
+        border-color: black;
+        font-size: 25px;
+        padding: 25px;
+        margin-top: 35px;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 3.5px;
+        width: 10%;
+    }
+    
+
+    .menu_2:hover{
+        background-color: #FF9505;
+        color:#000000   ;
+        transition:0.5s;
+        border-color: #92dce5;
+    }
+
+
 }
