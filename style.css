@@ -9,12 +9,8 @@ body{
 
     .img{
         float: left;
-        top: 50px;
-        left: 45px;
-        width: 400px;
-        height: 50px;
         margin: 25px;
-        padding: 25px;
+        height: 50%;
     }
 
     .menu{
