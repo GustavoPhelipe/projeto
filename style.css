@@ -9,14 +9,45 @@ body{
         padding: 3px;
         width: 80%;
     }
-
+    .caixa1{
+        overflow: hidden;
+        padding: 3px;
+        width: 80%;
+    }
+    .caixa2{
+        overflow: hidden;
+        padding: 30px;
+        margin: 20px;
+    }
+    .caixa3{
+        overflow: hidden;
+        padding: 30px;
+        margin: 20px;
+    }
+    .eng{
+        float: left;
+        font-family:Arial, Helvetica, sans-serif;
+        width: 99%;
+        height: 50px;
+        margin: 0px 10px;
+        font-size: 50px;
+    }
+    .cor{
+        float: right;
+        font-family:Arial, Helvetica, sans-serif;
+        height: 50px;
+        margin: 20px 0px;
+        font-size: 50px;
+        padding: 50px 0px;
+    }
     .img{
         float: left;
         margin: 25px;
+        padding: 5px;
     }
-
     .menu{
         float: left;
+        color: #000000;
         position: relative;
         left: 400px;
         top: 50px;
@@ -24,21 +55,85 @@ body{
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         height: 30px;
+        text-decoration: none;
     }
-
     .menu:hover{
         background-color: #ff0000;
         color:#ffffff;
         transition:0.5s;
+        opacity: 50%;
     }
-
     .linha{
         float: left;
         position: absolute;
         right: 150px;
-        top: 100px;
+        top: 110px;
         color:transparent;
         border-bottom-style: solid;
         border-color: #ff0000;
+    }
+    .img2{
+        float: left; 
+    }
+    .img3{
+        float: right; 
+        position: relative;
+        right: 200px;
+    }
+    .text{
+        float: left;
+        position: relative;
+        font-family:Arial, Helvetica, sans-serif;
+        width: 50%;
+        height: 50px;
+        top: 50px;
+        margin:20px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .text1{
+        float: right;
+        position: relative;
+        font-family:Arial, Helvetica, sans-serif;
+        height: 50px;
+        top: 50px;
+        margin:20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .b_insta {
+        background-color: palevioletred; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        float: none;
+    }
+    .b_face {
+        background-color: darkblue; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        float: none;
+    }
+    .pat{
+        float:left;
+        padding-top: 175px;
+        padding-left: 0%;
+    }
+    .text{
+        float: right;
+        padding-top: 10px;
+        text-align: center;
+        color: #000000;
+        width: 65%;
     }
 }
